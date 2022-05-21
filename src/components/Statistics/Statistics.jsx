@@ -7,10 +7,11 @@ import styles from "./statistics.module.css";
 const Statistics = ({data,title}) => {
 
     const elements = data.map(item => (
-<li key={item.id} className={styles.item}>
-        <span className={styles.label}>{item.label}</span>
-      <span className={styles.percentage}>{item.percentage}%</span>
-    </li>
+        
+        <li key={item.id} className={styles.item}>
+            <span className={styles.label}>{item.label}</span>
+            <span className={styles.percentage}>{item.percentage}%</span>
+        </li>
 
     ));
 
@@ -24,6 +25,7 @@ const Statistics = ({data,title}) => {
                 {elements}
             </ul>
         </section>
+        
     );
 }
 

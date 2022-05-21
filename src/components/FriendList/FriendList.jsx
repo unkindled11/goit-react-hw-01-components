@@ -4,8 +4,10 @@ import FriendListItem from './FriendListItem';
 
 import styles from './friendList.module.css';
 
-const FriendList=({ friends })=> {
+const FriendList = ({ friends }) => {
+  
   return (
+
     <ul className={styles.list}>
       {friends.map(item => (
         <FriendListItem
@@ -16,6 +18,7 @@ const FriendList=({ friends })=> {
         />
       ))}
     </ul>
+    
   );
 }
 

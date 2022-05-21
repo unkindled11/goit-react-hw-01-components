@@ -2,9 +2,12 @@ import PropTypes from "prop-types";
 
 import styles from "./profile.module.css"
 
-const Profile = ({username,tag,location,avatar,stats}) => {
+const Profile = ({ username, tag, location, avatar, stats }) => {
+    
     return (
+
         <div className={styles.profile}>
+
             <div className={styles.description}>
                 <img
                     src={avatar}
@@ -30,7 +33,9 @@ const Profile = ({username,tag,location,avatar,stats}) => {
                     <span className={styles.quantity}>{stats.likes}</span>
                 </li>
             </ul>
+            
         </div>
+
     )
 };
 

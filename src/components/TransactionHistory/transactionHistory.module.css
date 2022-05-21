@@ -1,0 +1,35 @@
+.transactionHistory {
+    border: 1px solid #CCC;
+    border-radius: 8px;
+    background-color: #fff;
+    font-size: 24px;
+}
+
+
+.row {
+    height: 45px;
+
+}
+
+.head {
+    background-color: lightcoral;
+    color: #fff;
+}
+
+.rowElement {
+    padding-left: 60px;
+    width: 33%;
+    padding-right: 60px;
+    text-align: center;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+
+.row:nth-child(even) {
+    background-color: lightpink;
+}
+
+
+.rowElement:first-child {
+    text-align: left;
+}
