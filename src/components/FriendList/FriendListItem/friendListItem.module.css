@@ -1,0 +1,42 @@
+.item {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border: 0.5px solid #000;
+}
+
+.item:nth-child(even){
+    background-color: lightcyan;
+}
+
+.status {
+    display: block;
+
+    margin-left: 15px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #2db090;
+}
+
+.statusOff {
+    display: block;
+
+    margin-left: 15px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #d90812;
+}
+
+.avatar {
+    margin-left: 70px;
+    
+}
+
+.name {
+    margin-left: auto;
+    margin-right: 100px;
+    font-weight: 500;
+}
+
