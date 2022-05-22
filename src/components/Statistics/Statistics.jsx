@@ -15,7 +15,7 @@ const Statistics = ({data,title}) => {
 
     ));
 
-    const titleRender = title.length > 0 && (<h2 className={styles.title}>{title}</h2>);
+    const titleRender = title && (<h2 className={styles.title}>{title}</h2>);
     
     return (
 
